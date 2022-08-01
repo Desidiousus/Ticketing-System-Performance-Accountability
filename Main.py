@@ -27,13 +27,13 @@ except FileExistsError:
 while True:
     options = Options()
     options.add_argument("--window-size=250,250")
-    CHROMEDRIVER_PATH = r"C:\Users\agyger.ASRCFH\Downloads\chromedriver.exe"
+    CHROMEDRIVER_PATH = r"C:\Users\agyger.REDACTED\Downloads\chromedriver.exe"
 
     #Select browser you want to open the url with
     driver = webdriver.Chrome(options = options,executable_path=CHROMEDRIVER_PATH) 
 
     #URL the browser should go to
-    driver.get("http://servicedesk.asrc.com/ProcessManager/Portal/Template20_80.aspx?PageID=54b68520-bd2c-44ca-b646-344400f41ba2")
+    driver.get("http://servicedesk.REDACTED.com/ProcessManager/Portal/Template20_80.aspx?PageID=54b68520-bd2c-44ca-b646-344400f41ba2")
     #Wait to authenticate
     print("wait 20 seconds...")
     time.sleep(20)
